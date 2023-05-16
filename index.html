@@ -29,8 +29,8 @@
             >Web<span class="logo-text">Studio</span></a
           >
           <ul class="nav-links list">
-            <li class="nav-item item">
-              <a href="./index.html" class="nav-link link">Studio</a>
+            <li class="nav-item item click">
+              <a href="./index.html" class="nav-link affter link ">Studio</a>
             </li>
             <li class="nav-item item">
               <a href="./portfolio.html" class="nav-link link">Portfolio</a>
@@ -66,7 +66,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-button">Order Service</button>
+          <button type="button" class="hero-button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -544,5 +544,26 @@
         </div>
       
     </footer>
+
+
+ <!-- ------------------МОДЕЛЬНОЕ ОКНО----------------- -->
+
+ <div class="backdrop is-hidden " data-modal>
+
+  <div class="modal ">
+    <button type="button" class="close-model-btn btn-model" data-modal-close>
+      <svg width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black"></use>
+      </svg>
+    </button>
+  </div>
+
+ </div>
+
+
+ <!-- -----------СКРИПТ МОДЕЛЬНОГО ОКНА---------------- -->
+
+<script src="./js/modal.js"></script>
+
   </body>
 </html>
