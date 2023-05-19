@@ -156,6 +156,7 @@ body {
 }
 
 .nav-link {
+  display: block;
   position: relative;
 }
 
